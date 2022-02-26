@@ -1,14 +1,14 @@
 # minikube-VPA
 Trying to do manually VPA inside of kubernetes pod.
 
-### Complete ##
+## Complete 
 
 * Create simple pod with k8s deployment technique
 * Create service for this pod and open internal port
 * Create bash script for automatically access container interactive terminal
 * Ensure that live change of VPA in single pod is not recommended and actually impossible
 
-### Research
+## Research
 
 ***Aliyun (or other cloud services) support modifying limit spec during runtime***  
 https://partners-intl.aliyun.com/help/en/doc-detail/197267.htm
@@ -22,6 +22,6 @@ https://github.com/kubernetes/kubernetes/issues/39060
 ***Recommended solution: k8s auto-scaling-extension***  
 https://itnext.io/k8s-vertical-pod-autoscaling-fd9e602cbf81
 
-### TODO
+## TODO
 - [ ] Apply auto-VPA in `autoscaling.k8s.io/v1beta2`
 - [ ] Try to implement plugin for manually kill and recreate new pod through deployment
