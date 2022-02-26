@@ -2,7 +2,7 @@
 Trying to do manually VPA inside of kubernetes pod.
 
 ### Complete
-
+##
 * Create simple pod with k8s deployment technique
 * Create service for this pod and open internal port
 * Create bash script for automatically access container interactive terminal
